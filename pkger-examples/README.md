@@ -5,5 +5,7 @@ Usage:
 1. `go get github.com/markbates/pkger/cmd/pkger`
 1. `make`
 1. access:
-    - `http://127.0.0.1:3300/`
-    - `http://127.0.0.1:3300/list`
+    - http://127.0.0.1:3000/
+    - http://127.0.0.1:3000/list
+
+![image](https://user-images.githubusercontent.com/1940588/91697473-c4aba000-eba3-11ea-9ae6-3b7534cb56ba.png)

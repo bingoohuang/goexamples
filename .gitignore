@@ -1,3 +1,4 @@
 .idea
-pkged.go
+pkger-examples/pkged.go
+pkger-examples/example
 .DS_Store
