@@ -1,4 +1,4 @@
-module app
+module pkger-examples
 
 go 1.13
 
