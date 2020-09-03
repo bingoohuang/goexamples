@@ -23,6 +23,12 @@ Full blog post can be found here https://medium.com/@erez.levi/using-uber-fx-to-
 context canceled
 ```
 
+access http://localhost:8080/what-is-the-meaning-of-life you will get
+
+> 这个概念通过许多相关问题体现出来，例如：“我为何在此”“什么是生命？”“生命的真谛是什么？”。
+> 在历史长河中，它也是哲学，科学以及神学一直所思索的主题。前人在不同的文化环境与意识形态背景下也给出了很多的多元化答案。
+> 阿尔贝·加缪指出，作为一个存在的人，人类用生命的价值和意义来说服自己：人的存在不是荒诞的。
+
 ## TL:DR
 
 The main looks like this:
