@@ -1,7 +1,6 @@
 .PHONY: all c go run env
 
 TESTLIBPATH=ctestlib
-app=$(notdir $(shell pwd))
 all: run
 
 env:
@@ -17,5 +16,5 @@ go:c
 	go build
 
 run:go
-	./${app}
+	./cgodemo
 
