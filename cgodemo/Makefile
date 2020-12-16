@@ -1,8 +1,8 @@
 .PHONY: all c go run env
 
-TESTLIBPATH="./ctestlib"
-
-all: c go run
+TESTLIBPATH=ctestlib
+app=$(notdir $(shell pwd))
+all: run
 
 env:
 	docker build --tag cgo .
@@ -13,8 +13,9 @@ c:
 	ar cru ${TESTLIBPATH}/libtest.a  ${TESTLIBPATH}/test.o
 	# gcc -shared -o ${TESTLIBPATH}/libtest.so ${TESTLIBPATH}/test.o
 
-go:
+go:c
 	go build
 
-run:
-	./cgodemo
+run:go
+	./${app}
+
