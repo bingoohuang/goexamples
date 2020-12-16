@@ -1,0 +1,6 @@
+.idea
+*.so
+*.o
+cgodemo
+app
+lib*.a
